@@ -20,22 +20,22 @@ form.addEventListener('submit', (e)=>{
     if (authenticated === 'chudail') {
         window.location.href = 'Friends_pages/chudail.html';
     }
-    if (authenticated === 'penguin') {
+    else if (authenticated === 'penguin') {
         window.location.href = 'Friends_pages/penguin.html';
     }
-    if (authenticated === 'kritika') {
+    else if (authenticated === 'kritika') {
         window.location.href = 'Friends_pages/kritika.html';
     }
-    if (authenticated === 'ayush') {
+    else if (authenticated === 'ayush') {
         window.location.href = 'Friends_pages/ayush.html';
     }
-    if (authenticated === 'shlok') {
+    else if (authenticated === 'shlok') {
         window.location.href = 'Friends_pages/shlok.html';
     }
-    if (authenticated === 'sakshi') {
+    else if (authenticated === 'sakshi') {
         window.location.href = 'Friends_pages/sakshi.html';
     }
-    if (authenticated === 'bala') {
+    else if (authenticated === 'bala') {
         window.location.href = 'Friends_pages/bala.html';
     }
     else {
