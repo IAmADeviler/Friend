@@ -1,0 +1,38 @@
+main {
+    position: relative;
+    top: 20vh;
+    width: 100%;
+}
+
+.mainSection {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.mainSection div {
+    width: 100%;
+    color: rgb(46, 255, 255);
+}
+
+.mainSection .written {
+    width: 100%;
+    margin: 0 10vh;
+}
+
+/* .mainSection .written p {
+    margin: -30vh 0;
+} */
+
+.mainSection .photo {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.mainSection .photo img {
+    border-radius: 5px;
+    width: 23vh;
+    margin: 10px 10px;
+}

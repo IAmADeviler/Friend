@@ -1,0 +1,234 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background: rgb(5, 73, 70);
+    user-select: none;
+    overflow-x: hidden;
+}
+
+header {
+    background: rgb(67, 187, 181);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 99;
+}
+
+.logo {
+    font-size: 2em;
+    color: #000000;
+    user-select: none;
+}
+
+.navigation {
+    height: 8vh;
+}
+
+.navigation a {
+    position: relative;
+    font-size: 1.5em;
+    color: #000000;
+    user-select: none;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 40px;
+    transition: .4s;
+}
+
+.navigation a:hover {
+    transition: 1s;
+    font-size: 1.6em;
+}
+
+.navigation a::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    width: 100%;
+    height: 3px;
+    background: rgb(0, 255, 255);
+    border-radius: 5px;
+    transform-origin: right;
+    transform: scaleX(0);
+    transition: transform .5s;
+}
+
+.navigation a:hover::after {
+    transform: scaleX(1);
+    transform-origin: left;
+}
+
+.button {
+    width: 130px;
+    height: 50px;
+    background: transparent;
+    border: 2px solid;
+    outline: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 1.1em;
+    color: #000000;
+    font-weight: 500;
+    margin-left: 40px;
+    transition: .5s;
+}
+
+.button:hover {
+    background: #006666;
+    color: rgb(0, 255, 255);
+    border-color: rgb(0, 255, 255);
+}
+
+main {
+    position: relative;
+    top: 19vh;
+}
+
+.firstSection {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.firstSection div {
+    width: 35%;
+    color: rgb(46, 255, 255);
+}
+
+.leftSection {
+    position: relative;
+    top: -23px;
+}
+
+.leftSection img {
+    width: 100vh;
+}
+
+.rightSection {
+    font-size: 1.8rem;
+}
+
+#element {
+    color: rgb(110, 68, 209);
+}
+
+.friends {
+    display: flex;
+    justify-content: space-around;
+    margin: 5vh 0;
+}
+
+.friends .fri-button {
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 130px;
+    height: 50px;
+    background: transparent;
+    border: 2px solid;
+    outline: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 1.1em;
+    color: #24ff53;
+    font-weight: 500;
+    margin-left: 40px;
+    transition: .5s;
+}
+
+.friends .fri-button:hover {
+    background: #006666;
+    color: rgb(0, 255, 255);
+    border-color: rgb(0, 255, 255);
+}
+
+.images {
+    display: flex;
+    justify-content: space-around;
+}
+
+.images .penguin {
+    margin-left: 40px;
+    height: 100px;
+    width: 100px;
+}
+
+input {
+    width: 100%;
+    padding: 12px;
+    border: 2px solid #ccc;
+    border-radius: 2px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    background: rgb(203, 255, 235);
+}
+
+/* Style the submit button */
+input[type=submit] {
+    background: #04AA6D;
+    color: white;
+}
+
+/* Style the container for inputs */
+.container {
+    position: relative;
+    top: 20vh;
+    right: -70vh;
+    width: 30%;
+    background: rgb(67, 187, 181);;
+    padding: 20px;
+}
+
+/* The message box is shown when the user clicks on the password field */
+#message {
+    display: none;
+    background: #f1f1f1;
+    color: #000;
+    position: relative;
+    padding: 20px;
+    margin-top: 10px;
+}
+
+#message p {
+    padding: 10px 35px;
+    font-size: 18px;
+}
+
+/* Add a green text color and a checkmark when the requirements are right */
+.valid {
+    color: green;
+}
+
+.valid:before {
+    position: relative;
+    left: -35px;
+    content: "&#10004;";
+}
+
+/* Add a red text color and an "x" icon when the requirements are wrong */
+.invalid {
+    color: red;
+}
+
+.invalid:before {
+    position: relative;
+    left: -35px;
+    content: "&#10006;";
+}
+
+.hidden {
+    display: none;
+}
