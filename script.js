@@ -12,7 +12,7 @@ const form = document.querySelector('form')
 
 form.addEventListener('submit', (e)=>{
     e.preventDefault();
-    const username = form.username.value
+    const username = form.username.value.toString().toLowerCase();
     const password = form.password.value
 
     const authenticated = authentication(username, password);
