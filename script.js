@@ -18,25 +18,25 @@ form.addEventListener('submit', (e)=>{
     const authenticated = authentication(username, password);
 
     if (authenticated === 'chudail') {
-        window.location.href = './Friends_pages/chudail.html';
+        window.location.href = 'Friends_pages/chudail.html';
     }
     if (authenticated === 'penguin') {
-        window.location.href = './Friends_pages/penguin.html';
+        window.location.href = 'Friends_pages/penguin.html';
     }
     if (authenticated === 'kritika') {
-        window.location.href = './Friends_pages/kritika.html';
+        window.location.href = 'Friends_pages/kritika.html';
     }
     if (authenticated === 'ayush') {
-        window.location.href = './Friends_pages/ayush.html';
+        window.location.href = 'Friends_pages/ayush.html';
     }
     if (authenticated === 'shlok') {
-        window.location.href = './Friends_pages/shlok.html';
+        window.location.href = 'Friends_pages/shlok.html';
     }
     if (authenticated === 'sakshi') {
-        window.location.href = './Friends_pages/sakshi.html';
+        window.location.href = 'Friends_pages/sakshi.html';
     }
     if (authenticated === 'bala') {
-        window.location.href = './Friends_pages/bala.html';
+        window.location.href = 'Friends_pages/bala.html';
     }
     else {
         alert('wrong password')
