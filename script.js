@@ -80,16 +80,6 @@ var shlok_password = 'shlok_19';
 var sakhsi_password = 'sakshi_24';
 var bala_password = 'bala_09';
 
-var chudail_password = '';
-var penguin_password = '';
-var kritika_password = '';
-var ayush_password = '';
-var shlok_password = '';
-var sakhsi_password = '';
-var bala_password = '';
-
-
-
 function authentication(username, password) {
     if (username === 'chudail' && password === chudail_password) {
         return 'chudail'; 
