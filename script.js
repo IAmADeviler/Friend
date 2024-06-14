@@ -52,19 +52,7 @@ btn3.addEventListener('click', () => {
     con.classList.remove('hidden');
     mainSection.classList.add('hidden')
 });
-btn4.addEventListener('click', () => {
-    con.classList.remove('hidden');
-    mainSection.classList.add('hidden')
-});
-btn5.addEventListener('click', () => {
-    con.classList.remove('hidden');
-    mainSection.classList.add('hidden')
-});
 btn6.addEventListener('click', () => {
-    con.classList.remove('hidden');
-    mainSection.classList.add('hidden')
-});
-btn7.addEventListener('click', () => {
     con.classList.remove('hidden');
     mainSection.classList.add('hidden')
 });
