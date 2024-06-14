@@ -3,10 +3,7 @@ var con = document.querySelector('.container');
 var btn = document.querySelector('#form');
 var btn2 = document.querySelector('#form2');
 var btn3 = document.querySelector('#form3');
-var btn4 = document.querySelector('#form4');
-var btn5 = document.querySelector('#form5');
 var btn6 = document.querySelector('#form6');
-var btn7 = document.querySelector('#form7');
 var mainSection = document.querySelector('.mainSection')
 const form = document.querySelector('form')
 
