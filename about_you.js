@@ -8,7 +8,7 @@ form_submit.addEventListener('submit', (e) => {
     const authenticated = authentication(username, password);
 
     if (authenticated === true) {
-        const scriptURL = 'https://script.google.com/macros/s/AKfycbwgI6vvFcBM9W0U6NdAWjVptRDWheX1Vgy5FLNjk-ta3QaSBgE2dsA0Wq_PW1hzhI8Onw/exec'
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbxgkUzEh7JuXeGpipQSdFrw7T_Sx-ooe7RL6TEf099acMGR6OL72tkjgxf0CzLyHHW0-g/exec'
         const form = document.forms['submit-to-google-sheet']
 
         form.addEventListener('submit', (e) => {
