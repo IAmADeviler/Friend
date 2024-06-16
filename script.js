@@ -6,13 +6,6 @@ var btn3 = document.querySelector('#form3');
 var btn6 = document.querySelector('#form6');
 var mainSection = document.querySelector('.mainSection')
 const form = document.querySelector('#login-form');
-const about_btn = document.getElementById('about-you-btn');
-
-
-about_btn.addEventListener('click', (e)=> {
-    e.preventDefault(); 
-    window.location.href = '/about_you.html';
-});
 
 form.addEventListener('submit', (e)=>{
     e.preventDefault();
